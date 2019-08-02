@@ -1,7 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Title>Contract for neural network structure</Title>
     <TargetFramework>netstandard1.3</TargetFramework>
+    <PackageId>NeuralNetwork.Structure.Contract</PackageId>
+    <Version>$(Version)</Version>
+    <PackageVersion>$(PackageVersion)</PackageVersion>
+    <Authors>Alexander Yermakov</Authors>
+    <PackageTags>neural network; neurons; neural network structure</PackageTags>
+    <PackageLicenseUrl>https://github.com/A1essandro/NeuralNetwork.Structure.Contract/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/A1essandro/NeuralNetwork.Structure.Contract</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/A1essandro/NeuralNetwork.Learning.git</RepositoryUrl>
+    <RootNamespace>NeuralNetwork.Structure.Contract</RootNamespace>
+    <PackageDescription>
+      Main contract (interfaces) for package NeuralNetwork.Structure. 
+      Used by packages NeuralNetwork.Structure (implementations) and NeuralNetwork.Learning
+    </PackageDescription>
   </PropertyGroup>
 
 </Project>
