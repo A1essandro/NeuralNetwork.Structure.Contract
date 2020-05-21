@@ -14,17 +14,17 @@ namespace NeuralNetwork.Structure.Contract.Networks
         /// <summary>
         /// All layers from input to output
         /// </summary>
-        IEnumerable<IReadOnlyLayer<INode>> Layers { get; }
+        IEnumerable<ILayer<INode>> Layers { get; }
 
         /// <summary>
         /// Layer for input data. First layer of the network
         /// </summary>
-        IReadOnlyLayer<IMasterNode> InputLayer { get; set; }
+        ILayer<IMasterNode> InputLayer { get; set; }
 
         /// <summary>
         /// Layer for output data. Last layer of the network
         /// </summary>
-        IReadOnlyLayer<INotInputNode> OutputLayer { get; set; }
+        ILayer<INotInputNode> OutputLayer { get; set; }
 
         /// <summary>
         /// Collection of synapses in the network

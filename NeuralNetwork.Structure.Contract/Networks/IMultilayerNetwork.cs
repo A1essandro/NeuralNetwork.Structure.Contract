@@ -7,7 +7,7 @@ namespace NeuralNetwork.Structure.Contract.Networks
     public interface IMultilayerNetwork : ISimpleNetwork
     {
 
-        IReadOnlyList<IReadOnlyLayer<INotInputNode>> InnerLayers { get; }
+        IReadOnlyList<ILayer<INotInputNode>> InnerLayers { get; }
 
         IMultilayerNetwork AddInnerLayer(ILayer<INotInputNode> layer);
 
